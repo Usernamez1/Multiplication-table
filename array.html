@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input1">
+    <button onclick="addtToArray">Enter</button>
+</body>
+</html>
+
+
+<script>
+
+    let input = document.getElementById('input1')
+    let inputArray = [2 , 3 , 4 , 2 , 9]
+    function addtToArray() {
+        inputArray.push(input.value)
+    }
+    console.log(inputArray);
+
+    // inputArray = inputArray.sort()
+    // console.log(inputArray.sort());
+    
+
+
+
+
+
+    let class1 = [1, 2, 4, 3, 6, 6]
+    console.log(class1.length);
+    let david = 'heyy david'
+
+    console.log(class1.join(' # '));
+    console.log(typeof(class1.join()));
+
+    console.log(Array.isArray(class1));
+
+    console.log(class1.lastIndexOf(6));
+
+    let name = ['God' , 'Dan' , 'Clem' , 'John']
+
+    console.log(name.includes('Paul'));
+
+    let newNames = name.slice(0 , 3)
+    console.log(newNames);
+    
+    name.splice(0 ,2 , 'white' , 'pop' , 'micro' , 'soul')
+    console.log(name);
+    console.log(name.length);
+    name.push('Samson')
+    console.log(name);
+    name.pop()
+    name.pop()
+    name.pop()
+    console.log(name);
+
+
+    name.slice(0 , 0 , 'Good')
+    console.log(name);
+    name.unshift('JavaScript' , 'Good')
+    console.log(name);
+    name.shift()
+
+
+
+</script>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let classobj = {
+        name: 'Dami' ,
+        level: 'level 2' ,
+        course: 'javascript' ,
+        Age: 25,
+        shout: function () {
+            console.log(this.lev + 'shouts ahhhhhhhhhhhhhhh');
+        }
+        
+    }
+
+    classobj.course = 'python'
+
+    let NewObj = {...classobj}
+   
+
+    classobj['name']
+    classobj.name
+
+    classobj.shout()
+
+    for (props in classobj) {
+        
+        
+    }
+    console.log(Object.values(classobj));
+    
+    
+    // function returnNumber(params) {
+    //     let cache = {}
+    //     if (params in cache) {
+    //         return cache[params]
+    //     } else {
+    //         console.log('long process');
+    //         cach[params] = params
+    //        return cache[params]
+    //     };
+       
+    // }
+    // let number = returnNumber()
+    // console.log(number(7))
+    // console.log(number(7))
+    
+
+    function hi() {
+        return function hey() {
+            console.log(hey);
+        }
+    }
+
+    console.log(hi());
+
+
+    let firstfunc
+
+</script>
+
+</html>

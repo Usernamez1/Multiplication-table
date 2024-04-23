@@ -1,0 +1,38 @@
+ body{
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgb(32, 30, 30);
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+}
+.container{
+    background-color: rgb(22, 22, 120);
+    padding: 20px 50px 50px 50px;
+    border: 20px solid plum;
+    border-radius: 19px;
+}
+#table{
+    background-color: rgb(76, 25, 25);
+    
+}
+table{
+    border: 0;
+    width: 1200px;
+}
+table td{
+    background-color: white;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 9px;
+    border: 1.3px solid pink;
+}
+h2{
+   color: azure; 
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 2.5rem;
+   font-weight: bold;
+   
+}

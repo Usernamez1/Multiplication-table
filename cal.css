@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    font-family: Arial, sans-serif;
+    width: 270px;
+    background-color: hsl(0, 0%, 15%);;
+    border-radius: 15px;
+    max-width: 400px;
+    /* overflow: hidden; */
+    align-items: center;
+    margin-left: 98px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+#display{
+    width: 98%;
+    border-radius: 30px;
+    height: 70px;
+    padding: 20px;
+    color: white;
+    margin-top: 13px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 12px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);;
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);;
+}
+#key .yello{
+    background-color: rgb(222, 222, 16);
+}
+#key .yello:hover{
+    background-color: rgb(222, 222, 26);
+}
+#key .yello:active{
+    background-color: rgb(179, 179, 63);
+}
+
+#key .qq{
+    background-color: white;
+    width: 60px;
+    color: black;
+    font-size: 3rem;
+    /* margin-left: 40px; */
+}
